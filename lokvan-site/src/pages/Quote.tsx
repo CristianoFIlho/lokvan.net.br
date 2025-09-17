@@ -31,18 +31,17 @@ const schema = yup.object({
   name: yup.string().required('Nome é obrigatório'),
   email: yup.string().email('Email inválido').required('Email é obrigatório'),
   phone: yup.string().required('Telefone é obrigatório'),
-  company: yup.string(),
+  company: yup.string().optional(),
   service: yup.string().required('Selecione um serviço'),
   passengers: yup.number().positive('Número deve ser positivo').required('Número de passageiros é obrigatório'),
   date: yup.string().required('Data é obrigatória'),
-  time: yup.string(),
+  time: yup.string().optional(),
   origin: yup.string().required('Local de origem é obrigatório'),
   destination: yup.string().required('Local de destino é obrigatório'),
-  duration: yup.string(),
-  message: yup.string(),
+  duration: yup.string().optional(),
+  message: yup.string().optional(),
 }).required()
 
-type FormData = yup.InferType<typeof schema>
 
 const services = [
   { value: 'fretamento', label: 'Fretamento' },
@@ -68,11 +67,11 @@ const Quote = () => {
     handleSubmit,
     formState: { errors, isSubmitting },
     reset
-  } = useForm<FormData>({
+  } = useForm({
     resolver: yupResolver(schema)
   })
 
-  const onSubmit = async (data: FormData) => {
+  const onSubmit = async (data: any) => {
     try {
       // Simulate API call
       await new Promise(resolve => setTimeout(resolve, 2000))

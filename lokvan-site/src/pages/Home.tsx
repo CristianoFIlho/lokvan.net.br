@@ -11,7 +11,6 @@ import {
   CardBody,
   Icon,
   Image,
-  Flex,
   Badge,
 } from '@chakra-ui/react'
 import { motion } from 'framer-motion'

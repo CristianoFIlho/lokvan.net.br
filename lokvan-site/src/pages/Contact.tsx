@@ -42,7 +42,6 @@ const schema = yup.object({
   message: yup.string().required('Mensagem é obrigatória'),
 }).required()
 
-type ContactFormData = yup.InferType<typeof schema>
 
 const contactInfo = [
   {
@@ -83,11 +82,11 @@ const Contact = () => {
     handleSubmit,
     formState: { errors, isSubmitting },
     reset
-  } = useForm<ContactFormData>({
+  } = useForm({
     resolver: yupResolver(schema)
   })
 
-  const onSubmit = async (data: ContactFormData) => {
+  const onSubmit = async (data: any) => {
     try {
       // Simulate API call
       await new Promise(resolve => setTimeout(resolve, 1500))

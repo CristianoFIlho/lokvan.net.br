@@ -10,9 +10,6 @@ import {
   Icon,
   Image,
   Button,
-  List,
-  ListItem,
-  ListIcon,
   Badge,
   HStack,
 } from '@chakra-ui/react'

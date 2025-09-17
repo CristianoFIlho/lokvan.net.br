@@ -16,14 +16,14 @@ import {
   StatNumber,
 } from '@chakra-ui/react'
 import { motion } from 'framer-motion'
-import { FaEye, FaTarget, FaHeart, FaBus, FaUsers, FaRoute, FaClock } from 'react-icons/fa'
+import { FaEye, FaBullseye, FaHeart, FaBus, FaUsers, FaRoute, FaClock } from 'react-icons/fa'
 
 const MotionBox = motion.create(Box)
 const MotionCard = motion.create(Card)
 
 const values = [
   {
-    icon: FaTarget,
+    icon: FaBullseye,
     title: 'Missão',
     description: 'Oferecer serviços de transporte de excelência, priorizando a segurança, pontualidade e conforto dos nossos passageiros.',
     color: 'lokvan.primary'
