@@ -1,2 +1,0 @@
-XML-RPC server accepts POST requests only.
-<!-- Page retrieved from Super Page Cache for Cloudflare's fallback cache - page generated @ 2024-01-10 20:46:08 - fallback cache expiration @ never expires - cache key d19dca1947d984c42d0f77cbb802d2c914bca307.html --><!-- ADVANCED CACHE -->
