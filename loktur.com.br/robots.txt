@@ -1,9 +1,0 @@
-# START YOAST BLOCK
-# ---------------------------
-User-agent: *
-Disallow:
-
-Sitemap: https://www.biglinux.com.br/sitemap_index.xml
-# ---------------------------
-# END YOAST BLOCK
-<!-- Page retrieved from Super Page Cache for Cloudflare's fallback cache - page generated @ 2024-01-09 16:58:27 - fallback cache expiration @ never expires - cache key 9c972925c941189ab0551837a41c89a53d43e2e3.html -->
