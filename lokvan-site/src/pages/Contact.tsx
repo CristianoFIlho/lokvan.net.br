@@ -47,9 +47,9 @@ const contactInfo = [
   {
     icon: FaPhone,
     title: 'Telefone Fixo',
-    info: '+55 71 999655-9262',
+    info: '+55 71 99655-9262',
     color: 'lokvan.primary',
-    action: 'tel:+5571996559262'
+    action: 'tel:+557196559262'
   },
   {
     icon: FaWhatsapp,
