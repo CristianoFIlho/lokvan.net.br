@@ -281,8 +281,9 @@ const Home = () => {
                 color="white"
                 borderColor="white"
                 _hover={{ bg: 'whiteAlpha.200' }}
+                onClick={() => window.open('tel:+55719996559262', '_blank')}
               >
-                (71) 3333-4444
+                +55 71 999655-9262
               </Button>
             </HStack>
           </VStack>

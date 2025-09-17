@@ -47,16 +47,16 @@ const contactInfo = [
   {
     icon: FaPhone,
     title: 'Telefone Fixo',
-    info: '(71) 3333-4444',
+    info: '+55 71 999655-9262',
     color: 'lokvan.primary',
-    action: 'tel:+557133334444'
+    action: 'tel:+5571996559262'
   },
   {
     icon: FaWhatsapp,
     title: 'WhatsApp',
-    info: '(71) 99999-8888',
+    info: '+55 71 99655-9262',
     color: 'green.500',
-    action: 'https://wa.me/5571999998888'
+    action: 'https://wa.me/557196559262'
   },
   {
     icon: FaEnvelope,
@@ -270,9 +270,9 @@ const Contact = () => {
                           Endereço
                         </Heading>
                         <Text color="gray.600">
-                          RUA SAO MARCOS, 41, SALA 01<br />
-                          CENTRO, SIMOES FILHO - BA<br />
-                          CEP 43700-000
+                          Loteamento - Granjas Rurais Pres. Vargas<br />
+                          Salvador - BA<br />
+                          CEP 41230-000
                         </Text>
                       </VStack>
                     </HStack>
@@ -281,7 +281,7 @@ const Contact = () => {
                       variant="lokvan"
                       size="sm"
                       onClick={() => {
-                        const address = "RUA SAO MARCOS, 41, SIMOES FILHO - BA"
+                        const address = "Loteamento Granjas Rurais Pres. Vargas, Salvador - BA"
                         const mapsUrl = `https://www.google.com/maps/search/${encodeURIComponent(address)}`
                         window.open(mapsUrl, '_blank')
                       }}
@@ -349,12 +349,12 @@ const Contact = () => {
               Nossa Localização
             </Heading>
             <Text color="gray.600">
-              Centro de Simões Filho - BA
+              Salvador - BA
             </Text>
             <Button
               variant="lokvan"
               onClick={() => {
-                const address = "RUA SAO MARCOS, 41, SIMOES FILHO - BA"
+                const address = "Loteamento Granjas Rurais Pres. Vargas, Salvador - BA"
                 const mapsUrl = `https://www.google.com/maps/search/${encodeURIComponent(address)}`
                 window.open(mapsUrl, '_blank')
               }}

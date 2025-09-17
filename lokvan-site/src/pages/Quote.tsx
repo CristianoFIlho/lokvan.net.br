@@ -143,7 +143,7 @@ const Quote = () => {
                   <Icon as={FaPhone} color="lokvan.primary" boxSize={5} />
                   <VStack align="start" spacing={0}>
                     <Text fontWeight="bold">Telefone</Text>
-                    <Text color="gray.600">(71) 3333-4444</Text>
+                    <Text color="gray.600">+55 71 999655-9262</Text>
                   </VStack>
                 </HStack>
 
@@ -151,7 +151,7 @@ const Quote = () => {
                   <Icon as={FaWhatsapp} color="green.500" boxSize={5} />
                   <VStack align="start" spacing={0}>
                     <Text fontWeight="bold">WhatsApp</Text>
-                    <Text color="gray.600">(71) 99999-8888</Text>
+                    <Text color="gray.600">+55 71 999655-9262</Text>
                   </VStack>
                 </HStack>
 
@@ -168,9 +168,9 @@ const Quote = () => {
                   <VStack align="start" spacing={0}>
                     <Text fontWeight="bold">Endereço</Text>
                     <Text color="gray.600">
-                      RUA SAO MARCOS, 41, SALA 01<br />
-                      CENTRO, SIMOES FILHO - BA<br />
-                      CEP 43700-000
+                      Loteamento - Granjas Rurais Pres. Vargas<br />
+                      Salvador - BA<br />
+                      CEP 41230-000
                     </Text>
                   </VStack>
                 </HStack>

@@ -241,9 +241,9 @@ const About = () => {
                   Localização
                 </Heading>
                 <Text textAlign="center">
-                  RUA SAO MARCOS, 41, SALA 01<br />
-                  CENTRO, SIMOES FILHO - BA<br />
-                  CEP 43700-000
+                  Loteamento - Granjas Rurais Pres. Vargas<br />
+                  Salvador - BA<br />
+                  CEP 41230-000
                 </Text>
               </VStack>
             </SimpleGrid>
