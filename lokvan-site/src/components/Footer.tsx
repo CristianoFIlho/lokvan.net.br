@@ -32,7 +32,7 @@ const Footer = () => {
               </HStack>
               <HStack>
                 <Icon as={FaEnvelope} />
-                <Text>contato@lokvan.net.br</Text>
+                <Text>lokvantur@gmail.com</Text>
               </HStack>
             </VStack>
           </VStack>

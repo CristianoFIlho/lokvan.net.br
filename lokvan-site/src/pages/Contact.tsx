@@ -61,9 +61,9 @@ const contactInfo = [
   {
     icon: FaEnvelope,
     title: 'Email',
-    info: 'contato@lokvan.net.br',
+    info: 'lokvantur@gmail.com',
     color: 'lokvan.primary',
-    action: 'mailto:contato@lokvan.net.br'
+    action: 'mailto:lokvantur@gmail.com'
   },
   {
     icon: FaInstagram,

@@ -159,7 +159,7 @@ const Quote = () => {
                   <Icon as={FaEnvelope} color="lokvan.primary" boxSize={5} />
                   <VStack align="start" spacing={0}>
                     <Text fontWeight="bold">Email</Text>
-                    <Text color="gray.600">contato@lokvan.net.br</Text>
+                    <Text color="gray.600">lokvantur@gmail.com</Text>
                   </VStack>
                 </HStack>
 

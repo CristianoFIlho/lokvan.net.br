@@ -282,7 +282,7 @@ const Fleet = () => {
 
             <Box>
               <Image
-                src="https://via.placeholder.com/500x400/1E3A8A/FFFFFF?text=Manutencao"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyCXy0zSuehN3Ph9Fev764Gu2fkLDiViGmHA&s"
                 alt="Manutenção da Frota"
                 rounded="lg"
                 shadow="lg"
