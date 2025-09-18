@@ -19,10 +19,8 @@ import {
   FaUsers,
   FaSnowflake,
   FaWifi,
-  FaTv,
   FaShieldAlt,
-  FaUsb,
-  FaToilet
+  FaUsb
 } from 'react-icons/fa'
 
 const MotionBox = motion.create(Box)
