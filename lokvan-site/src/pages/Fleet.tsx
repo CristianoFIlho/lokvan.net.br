@@ -31,7 +31,7 @@ const fleet = [
     id: 'micro-onibus-1',
     name: 'Micro-ônibus Executivo',
     capacity: '20 passageiros',
-    image: 'https://via.placeholder.com/400x300/1E3A8A/FFFFFF?text=Micro+Onibus+1',
+    image: 'https://2017.onibus.org/8/30/t/dd4bf8ff502e2315823fbdd9d9acaa42.jpg',
     features: [
       { icon: FaUsers, text: 'Até 20 passageiros' },
       { icon: FaSnowflake, text: 'Ar condicionado' },
@@ -45,7 +45,7 @@ const fleet = [
     id: 'micro-onibus-2',
     name: 'Micro-ônibus Executivo',
     capacity: '20 passageiros',
-    image: 'https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=Micro+Onibus+2',
+    image: 'https://2019.onibus.org/1/26/t/5aa6cbe21d8058dd2c80641bf852b148.jpg',
     features: [
       { icon: FaUsers, text: 'Até 20 passageiros' },
       { icon: FaSnowflake, text: 'Ar condicionado' },
@@ -59,7 +59,7 @@ const fleet = [
     id: 'micro-onibus-3',
     name: 'Micro-ônibus Executivo',
     capacity: '20 passageiros',
-    image: 'https://via.placeholder.com/400x300/F59E0B/FFFFFF?text=Micro+Onibus+3',
+    image: 'https://2023.onibus.org/10/9/t/ffa020f04fc6a9d5971fae24a25ad565.jpg',
     features: [
       { icon: FaUsers, text: 'Até 20 passageiros' },
       { icon: FaSnowflake, text: 'Ar condicionado' },
@@ -73,7 +73,7 @@ const fleet = [
     id: 'micro-onibus-4',
     name: 'Micro-ônibus Executivo',
     capacity: '20 passageiros',
-    image: 'https://via.placeholder.com/400x300/7C3AED/FFFFFF?text=Micro+Onibus+4',
+    image: 'https://2025.onibus.org/4/30/t/1093079f0b5b815839c0ae1f46970bef.jpg',
     features: [
       { icon: FaUsers, text: 'Até 20 passageiros' },
       { icon: FaSnowflake, text: 'Ar condicionado' },
@@ -87,7 +87,7 @@ const fleet = [
     id: 'van-executiva',
     name: 'Van Executiva',
     capacity: '15 passageiros',
-    image: 'https://via.placeholder.com/400x300/DC2626/FFFFFF?text=Van+Executiva',
+    image: 'https://2019.onibus.org/1/26/t/99bb7dea6c45e4ec130e4d8090caff0f.jpg',
     features: [
       { icon: FaUsers, text: 'Até 15 passageiros' },
       { icon: FaSnowflake, text: 'Ar condicionado' },
