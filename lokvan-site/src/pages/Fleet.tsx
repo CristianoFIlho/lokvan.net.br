@@ -72,32 +72,32 @@ const fleet = [
     category: 'Executivo'
   },
   {
-    id: 'onibus-1',
-    name: 'Ônibus Rodoviário Médio',
-    capacity: '35 passageiros',
-    image: 'https://via.placeholder.com/400x300/7C3AED/FFFFFF?text=Onibus+1',
+    id: 'micro-onibus-4',
+    name: 'Micro-ônibus Executivo',
+    capacity: '20 passageiros',
+    image: 'https://via.placeholder.com/400x300/7C3AED/FFFFFF?text=Micro+Onibus+4',
     features: [
-      { icon: FaUsers, text: 'Até 35 passageiros' },
+      { icon: FaUsers, text: 'Até 20 passageiros' },
       { icon: FaSnowflake, text: 'Ar condicionado' },
-      { icon: FaTv, text: 'Sistema de som e TV' },
-      { icon: FaToilet, text: 'Banheiro' },
+      { icon: FaWifi, text: 'Wi-Fi gratuito' },
+      { icon: FaUsb, text: 'Tomadas USB' },
     ],
-    ideal: 'Excursões, fretamento empresarial',
-    category: 'Rodoviário'
+    ideal: 'Grupos pequenos, transfer executivo',
+    category: 'Executivo'
   },
   {
-    id: 'onibus-2',
-    name: 'Ônibus Rodoviário',
-    capacity: '46 passageiros',
-    image: 'https://via.placeholder.com/400x300/DC2626/FFFFFF?text=Onibus+2',
+    id: 'van-executiva',
+    name: 'Van Executiva',
+    capacity: '15 passageiros',
+    image: 'https://via.placeholder.com/400x300/DC2626/FFFFFF?text=Van+Executiva',
     features: [
-      { icon: FaUsers, text: 'Até 46 passageiros' },
-      { icon: FaSnowflake, text: 'Ar condicionado duplo' },
-      { icon: FaTv, text: 'TV e sistema de som' },
-      { icon: FaToilet, text: 'Banheiro' },
+      { icon: FaUsers, text: 'Até 15 passageiros' },
+      { icon: FaSnowflake, text: 'Ar condicionado' },
+      { icon: FaWifi, text: 'Wi-Fi' },
+      { icon: FaUsb, text: 'Tomadas e USB' },
     ],
-    ideal: 'Viagens longas, grandes grupos',
-    category: 'Rodoviário'
+    ideal: 'Transfer, grupos pequenos',
+    category: 'Executivo'
   }
 ]
 
@@ -119,7 +119,7 @@ const Fleet = () => {
               Nossa Frota
             </Heading>
             <Text fontSize="xl" maxW="3xl">
-              Frota de 5 veículos (3 micro-ônibus e 2 ônibus) equipados para garantir 
+              Frota de 5 veículos (4 micro-ônibus e 1 van) equipados para garantir 
               o transporte seguro dos estudantes.
             </Text>
           </VStack>
@@ -132,8 +132,8 @@ const Fleet = () => {
           <SimpleGrid columns={{ base: 2, md: 4 }} spacing={8} mb={16}>
             {[
               { number: '5', label: 'Veículos na Frota' },
-              { number: '3', label: 'Micro-ônibus (20 pax)' },
-              { number: '2', label: 'Ônibus (35-46 pax)' },
+              { number: '4', label: 'Micro-ônibus (20 pax)' },
+              { number: '1', label: 'Van (15 pax)' },
               { number: '15+', label: 'Anos de Experiência' }
             ].map((stat, index) => (
               <VStack key={index} textAlign="center">

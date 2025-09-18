@@ -48,7 +48,7 @@ const services = [
 ]
 
 const benefits = [
-  '5 veículos na frota (3 micro-ônibus e 2 ônibus)',
+  '5 veículos na frota (4 micro-ônibus e 1 van)',
   'Motoristas experientes e habilitados',
   'Seguro total para estudantes',
   'Atendimento especializado em transporte escolar',
@@ -90,7 +90,7 @@ const Home = () => {
             </Heading>
             <Text fontSize="xl" maxW="2xl">
               A Lokvan é especializada em transporte escolar seguro e confiável, 
-              atendendo principalmente o Colégio Militar de Salvador com frota própria de 5 veículos.
+              atendendo principalmente o Colégio Militar de Salvador com frota própria de 5 veículos (4 micro-ônibus e 1 van).
             </Text>
             <HStack spacing={4}>
               <Button

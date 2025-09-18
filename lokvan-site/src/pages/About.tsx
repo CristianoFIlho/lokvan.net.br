@@ -89,7 +89,7 @@ const About = () => {
                 </Text>
                 <Text color="gray.600">
                   Começamos com apenas 2 veículos e muito entusiasmo. Hoje, após mais de 15 anos 
-                  de dedicação, contamos com uma frota de 5 veículos (3 micro-ônibus e 2 ônibus), 
+                  de dedicação, contamos com uma frota de 5 veículos (4 micro-ônibus e 1 van), 
                   atendendo principalmente o Colégio Militar de Salvador e outras instituições de ensino.
                 </Text>
                 <Text color="gray.600">
