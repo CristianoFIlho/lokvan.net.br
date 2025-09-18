@@ -22,7 +22,6 @@ import {
   FaTv,
   FaShieldAlt,
   FaUsb,
-  FaVolumeUp,
   FaToilet
 } from 'react-icons/fa'
 
@@ -31,10 +30,10 @@ const MotionCard = motion.create(Card)
 
 const fleet = [
   {
-    id: 'micro-onibus',
+    id: 'micro-onibus-1',
     name: 'Micro-ônibus Executivo',
     capacity: '20 passageiros',
-    image: 'https://via.placeholder.com/400x300/1E3A8A/FFFFFF?text=Micro+Onibus',
+    image: 'https://via.placeholder.com/400x300/1E3A8A/FFFFFF?text=Micro+Onibus+1',
     features: [
       { icon: FaUsers, text: 'Até 20 passageiros' },
       { icon: FaSnowflake, text: 'Ar condicionado' },
@@ -45,10 +44,38 @@ const fleet = [
     category: 'Executivo'
   },
   {
-    id: 'onibus-medio',
+    id: 'micro-onibus-2',
+    name: 'Micro-ônibus Executivo',
+    capacity: '20 passageiros',
+    image: 'https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=Micro+Onibus+2',
+    features: [
+      { icon: FaUsers, text: 'Até 20 passageiros' },
+      { icon: FaSnowflake, text: 'Ar condicionado' },
+      { icon: FaWifi, text: 'Wi-Fi gratuito' },
+      { icon: FaUsb, text: 'Tomadas USB' },
+    ],
+    ideal: 'Grupos pequenos, transfer executivo',
+    category: 'Executivo'
+  },
+  {
+    id: 'micro-onibus-3',
+    name: 'Micro-ônibus Executivo',
+    capacity: '20 passageiros',
+    image: 'https://via.placeholder.com/400x300/F59E0B/FFFFFF?text=Micro+Onibus+3',
+    features: [
+      { icon: FaUsers, text: 'Até 20 passageiros' },
+      { icon: FaSnowflake, text: 'Ar condicionado' },
+      { icon: FaWifi, text: 'Wi-Fi gratuito' },
+      { icon: FaUsb, text: 'Tomadas USB' },
+    ],
+    ideal: 'Grupos pequenos, transfer executivo',
+    category: 'Executivo'
+  },
+  {
+    id: 'onibus-1',
     name: 'Ônibus Rodoviário Médio',
     capacity: '35 passageiros',
-    image: 'https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=Onibus+Medio',
+    image: 'https://via.placeholder.com/400x300/7C3AED/FFFFFF?text=Onibus+1',
     features: [
       { icon: FaUsers, text: 'Até 35 passageiros' },
       { icon: FaSnowflake, text: 'Ar condicionado' },
@@ -59,10 +86,10 @@ const fleet = [
     category: 'Rodoviário'
   },
   {
-    id: 'onibus-grande',
+    id: 'onibus-2',
     name: 'Ônibus Rodoviário',
     capacity: '46 passageiros',
-    image: 'https://via.placeholder.com/400x300/F59E0B/FFFFFF?text=Onibus+Grande',
+    image: 'https://via.placeholder.com/400x300/DC2626/FFFFFF?text=Onibus+2',
     features: [
       { icon: FaUsers, text: 'Até 46 passageiros' },
       { icon: FaSnowflake, text: 'Ar condicionado duplo' },
@@ -71,48 +98,6 @@ const fleet = [
     ],
     ideal: 'Viagens longas, grandes grupos',
     category: 'Rodoviário'
-  },
-  {
-    id: 'van-executiva',
-    name: 'Van Executiva',
-    capacity: '15 passageiros',
-    image: 'https://via.placeholder.com/400x300/7C3AED/FFFFFF?text=Van+Executiva',
-    features: [
-      { icon: FaUsers, text: 'Até 15 passageiros' },
-      { icon: FaSnowflake, text: 'Ar condicionado' },
-      { icon: FaWifi, text: 'Wi-Fi' },
-      { icon: FaUsb, text: 'Tomadas e USB' },
-    ],
-    ideal: 'Transfer, grupos pequenos',
-    category: 'Executivo'
-  },
-  {
-    id: 'onibus-leito',
-    name: 'Ônibus Semi-Leito',
-    capacity: '42 passageiros',
-    image: 'https://via.placeholder.com/400x300/DC2626/FFFFFF?text=Onibus+Leito',
-    features: [
-      { icon: FaUsers, text: 'Até 42 passageiros' },
-      { icon: FaSnowflake, text: 'Ar condicionado' },
-      { icon: FaTv, text: 'Entretenimento' },
-      { icon: FaToilet, text: 'Banheiro' },
-    ],
-    ideal: 'Viagens noturnas, conforto premium',
-    category: 'Premium'
-  },
-  {
-    id: 'sprinter',
-    name: 'Sprinter Van',
-    capacity: '19 passageiros',
-    image: 'https://via.placeholder.com/400x300/059669/FFFFFF?text=Sprinter',
-    features: [
-      { icon: FaUsers, text: 'Até 19 passageiros' },
-      { icon: FaSnowflake, text: 'Ar condicionado' },
-      { icon: FaVolumeUp, text: 'Sistema de som' },
-      { icon: FaShieldAlt, text: 'Segurança avançada' },
-    ],
-    ideal: 'Grupos médios, eventos',
-    category: 'Conforto'
   }
 ]
 
@@ -147,8 +132,8 @@ const Fleet = () => {
           <SimpleGrid columns={{ base: 2, md: 4 }} spacing={8} mb={16}>
             {[
               { number: '5', label: 'Veículos na Frota' },
-              { number: '3', label: 'Micro-ônibus' },
-              { number: '2', label: 'Ônibus' },
+              { number: '3', label: 'Micro-ônibus (20 pax)' },
+              { number: '2', label: 'Ônibus (35-46 pax)' },
               { number: '15+', label: 'Anos de Experiência' }
             ].map((stat, index) => (
               <VStack key={index} textAlign="center">

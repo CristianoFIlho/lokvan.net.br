@@ -44,7 +44,7 @@ const services = [
       'Horários escolares respeitados',
       'Atendimento especializado'
     ],
-    capacity: '15 a 50 estudantes',
+    capacity: '20 a 46 estudantes',
     ideal: 'Escolas, colégios, instituições de ensino'
   },
   {
@@ -61,7 +61,7 @@ const services = [
       'Segurança máxima',
       'Relacionamento de longa data'
     ],
-    capacity: '15 a 50 estudantes por veículo',
+    capacity: '20 a 46 estudantes por veículo',
     ideal: 'Colégio Militar de Salvador'
   },
   {
@@ -78,7 +78,7 @@ const services = [
       'Suporte durante toda a atividade',
       'Segurança total para estudantes'
     ],
-    capacity: '15 a 50 estudantes',
+    capacity: '20 a 46 estudantes',
     ideal: 'Passeios escolares, atividades extracurriculares'
   },
   {
