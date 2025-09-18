@@ -23,50 +23,50 @@ const MotionCard = motion.create(Card)
 const services = [
   {
     icon: FaBus,
-    title: 'Fretamento',
-    description: 'Transporte para grupos com total segurança e conforto',
+    title: 'Transporte Escolar',
+    description: 'Serviço especializado para estudantes com total segurança',
     color: 'lokvan.primary'
   },
   {
     icon: FaRoute,
-    title: 'Viagens e Turismo',
-    description: 'Excursões e viagens para destinos incríveis',
+    title: 'Colégio Militar',
+    description: 'Transporte dedicado para o Colégio Militar de Salvador',
     color: 'lokvan.secondary'
   },
   {
     icon: FaCalendarAlt,
-    title: 'Eventos',
-    description: 'Transporte para eventos corporativos e sociais',
+    title: 'Eventos Escolares',
+    description: 'Transporte para passeios e atividades escolares',
     color: 'lokvan.accent'
   },
   {
     icon: FaUserTie,
-    title: 'Transfer Executivo',
-    description: 'Serviço premium para executivos e VIPs',
+    title: 'Transporte Personalizado',
+    description: 'Serviços sob medida para instituições de ensino',
     color: 'purple.500'
   }
 ]
 
 const benefits = [
-  'Frota moderna e bem conservada',
+  '5 veículos na frota (3 micro-ônibus e 2 ônibus)',
   'Motoristas experientes e habilitados',
-  'Seguro total para passageiros',
-  'Atendimento 24/7',
-  'Preços competitivos',
-  'Pontualidade garantida'
+  'Seguro total para estudantes',
+  'Atendimento especializado em transporte escolar',
+  'Preços justos e competitivos',
+  'Pontualidade garantida para horários escolares'
 ]
 
 const testimonials = [
   {
-    name: 'Maria Silva',
-    company: 'Empresa XYZ',
-    text: 'Excelente serviço! Sempre pontuais e com veículos em perfeito estado.',
+    name: 'Direção do Colégio Militar',
+    company: 'Colégio Militar de Salvador',
+    text: 'Excelente serviço de transporte escolar! Sempre pontuais e com total segurança para nossos alunos.',
     rating: 5
   },
   {
-    name: 'João Santos',
-    company: 'Turismo Bahia',
-    text: 'Parceiros de confiança para nossos grupos de turismo. Recomendo!',
+    name: 'Pais de Estudantes',
+    company: 'Famílias do Colégio Militar',
+    text: 'Confiamos na Lokvan para o transporte seguro de nossos filhos. Serviço de qualidade!',
     rating: 5
   }
 ]
@@ -86,11 +86,11 @@ const Home = () => {
         <Container maxW="6xl">
           <VStack spacing={6} textAlign="center">
             <Heading size="2xl" fontWeight="bold">
-              Transporte Seguro e Confiável
+              Transporte Escolar Especializado
             </Heading>
             <Text fontSize="xl" maxW="2xl">
-              A Lokvan oferece soluções completas em transporte para empresas, 
-              turismo e eventos com frota moderna e equipe qualificada.
+              A Lokvan é especializada em transporte escolar seguro e confiável, 
+              atendendo principalmente o Colégio Militar de Salvador com frota própria de 5 veículos.
             </Text>
             <HStack spacing={4}>
               <Button
@@ -127,7 +127,7 @@ const Home = () => {
                 Nossos Serviços
               </Heading>
               <Text fontSize="lg" color="gray.600" maxW="2xl">
-                Oferecemos soluções completas em transporte para atender todas as suas necessidades
+                Especializados em transporte escolar seguro e confiável para instituições de ensino
               </Text>
             </VStack>
 
@@ -172,8 +172,8 @@ const Home = () => {
                   Por que escolher a Lokvan?
                 </Heading>
                 <Text fontSize="lg" color="gray.600">
-                  Mais de 15 anos de experiência no mercado de transporte, 
-                  sempre priorizando a segurança e satisfação dos nossos clientes.
+                  Empresa familiar especializada em transporte escolar, 
+                  sempre priorizando a segurança e bem-estar dos estudantes.
                 </Text>
               </VStack>
 

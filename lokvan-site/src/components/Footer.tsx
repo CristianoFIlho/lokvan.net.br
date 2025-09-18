@@ -58,10 +58,10 @@ const Footer = () => {
               Serviços
             </Text>
             <VStack align="start" spacing={1}>
-              <Text>Fretamento</Text>
-              <Text>Viagens e Turismo</Text>
-              <Text>Eventos Corporativos</Text>
-              <Text>Transfer Executivo</Text>
+              <Text>Transporte Escolar</Text>
+              <Text>Colégio Militar de Salvador</Text>
+              <Text>Eventos Escolares</Text>
+              <Text>Transporte Personalizado</Text>
             </VStack>
           </VStack>
         </SimpleGrid>

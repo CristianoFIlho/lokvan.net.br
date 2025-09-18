@@ -134,8 +134,8 @@ const Fleet = () => {
               Nossa Frota
             </Heading>
             <Text fontSize="xl" maxW="3xl">
-              Veículos modernos, bem conservados e equipados com o que há de melhor 
-              em conforto e segurança para garantir uma viagem perfeita.
+              Frota de 5 veículos (3 micro-ônibus e 2 ônibus) equipados para garantir 
+              o transporte seguro dos estudantes.
             </Text>
           </VStack>
         </Container>
@@ -146,9 +146,9 @@ const Fleet = () => {
         <Container maxW="6xl">
           <SimpleGrid columns={{ base: 2, md: 4 }} spacing={8} mb={16}>
             {[
-              { number: '25+', label: 'Veículos na Frota' },
-              { number: '100%', label: 'Ar Condicionado' },
-              { number: '24/7', label: 'Manutenção' },
+              { number: '5', label: 'Veículos na Frota' },
+              { number: '3', label: 'Micro-ônibus' },
+              { number: '2', label: 'Ônibus' },
               { number: '15+', label: 'Anos de Experiência' }
             ].map((stat, index) => (
               <VStack key={index} textAlign="center">
@@ -170,7 +170,7 @@ const Fleet = () => {
               </Heading>
               <Text fontSize="lg" color="gray.600" maxW="3xl">
                 Cada veículo da nossa frota passa por manutenção rigorosa e está 
-                equipado para oferecer máximo conforto e segurança
+                equipado para oferecer segurança aos estudantes
               </Text>
             </VStack>
 

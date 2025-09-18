@@ -25,28 +25,28 @@ const values = [
   {
     icon: FaBullseye,
     title: 'Missão',
-    description: 'Oferecer serviços de transporte de excelência, priorizando a segurança, pontualidade e conforto dos nossos passageiros.',
+    description: 'Oferecer transporte escolar seguro e confiável, priorizando a segurança, pontualidade e bem-estar dos estudantes.',
     color: 'lokvan.primary'
   },
   {
     icon: FaEye,
     title: 'Visão',
-    description: 'Ser reconhecida como a empresa líder em transporte na Bahia, referência em qualidade e inovação no setor.',
+    description: 'Ser reconhecida como referência em transporte escolar em Salvador, especialmente pelo serviço dedicado ao Colégio Militar.',
     color: 'lokvan.secondary'
   },
   {
     icon: FaHeart,
     title: 'Valores',
-    description: 'Segurança, confiabilidade, respeito ao cliente, sustentabilidade e compromisso com a excelência em todos os serviços.',
+    description: 'Segurança dos estudantes, confiabilidade, respeito às famílias, pontualidade e compromisso com a educação.',
     color: 'lokvan.accent'
   }
 ]
 
 const stats = [
   { label: 'Anos de Experiência', value: '15+', icon: FaClock },
-  { label: 'Veículos na Frota', value: '25+', icon: FaBus },
-  { label: 'Clientes Atendidos', value: '5000+', icon: FaUsers },
-  { label: 'Quilômetros Rodados', value: '1M+', icon: FaRoute }
+  { label: 'Veículos na Frota', value: '5', icon: FaBus },
+  { label: 'Estudantes Transportados', value: '500+', icon: FaUsers },
+  { label: 'Anos com Colégio Militar', value: '10+', icon: FaRoute }
 ]
 
 const About = () => {
@@ -67,8 +67,8 @@ const About = () => {
               Sobre a Lokvan
             </Heading>
             <Text fontSize="xl" maxW="3xl">
-              Uma empresa familiar que cresceu e se tornou referência em transporte na Bahia, 
-              sempre mantendo os valores de confiança, segurança e excelência no atendimento.
+              Uma empresa familiar especializada em transporte escolar, 
+              atendendo principalmente o Colégio Militar de Salvador com dedicação e compromisso.
             </Text>
           </VStack>
         </Container>
@@ -85,18 +85,17 @@ const About = () => {
                 </Heading>
                 <Text fontSize="lg" color="gray.600">
                   Fundada em 2009, a Lokvan nasceu do sonho de uma família baiana em oferecer 
-                  serviços de transporte de qualidade para empresas e turistas que visitam 
-                  nossa bela Bahia.
+                  transporte escolar seguro e confiável para estudantes de Salvador.
                 </Text>
                 <Text color="gray.600">
-                  Começamos com apenas 3 veículos e muito entusiasmo. Hoje, após mais de 15 anos 
-                  de dedicação, contamos com uma frota moderna de mais de 25 veículos, atendendo 
-                  desde pequenos grupos até grandes corporações.
+                  Começamos com apenas 2 veículos e muito entusiasmo. Hoje, após mais de 15 anos 
+                  de dedicação, contamos com uma frota de 5 veículos (3 micro-ônibus e 2 ônibus), 
+                  atendendo principalmente o Colégio Militar de Salvador e outras instituições de ensino.
                 </Text>
                 <Text color="gray.600">
-                  Nossa trajetória é marcada pela constante busca por excelência, investimentos 
-                  em tecnologia e, principalmente, na qualificação de nossa equipe. Cada viagem 
-                  é uma oportunidade de superarmos as expectativas dos nossos clientes.
+                  Nossa trajetória é marcada pela constante busca por excelência no transporte escolar, 
+                  investimentos em segurança e, principalmente, na qualificação de nossa equipe. 
+                  Cada viagem é uma oportunidade de garantir o bem-estar e segurança dos estudantes.
                 </Text>
               </VStack>
             </VStack>
@@ -122,7 +121,7 @@ const About = () => {
                 Números que Inspiram Confiança
               </Heading>
               <Text fontSize="lg" color="gray.600">
-                Mais de uma década construindo relacionamentos sólidos
+                Mais de uma década transportando estudantes com segurança
               </Text>
             </VStack>
 
