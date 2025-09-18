@@ -81,6 +81,7 @@ const Header = () => {
               size="sm"
               colorScheme="green"
               variant="ghost"
+              onClick={() => window.open('https://wa.me/557196559262', '_blank')}
             />
             <IconButton
               aria-label="Telefone"
@@ -88,6 +89,7 @@ const Header = () => {
               size="sm"
               colorScheme="blue"
               variant="ghost"
+              onClick={() => window.open('tel:+55719996559262', '_blank')}
             />
           </HStack>
 

@@ -87,7 +87,7 @@ O site está configurado para deploy automático na Vercel:
 - Endereço: RUA SAO MARCOS, 41, SALA 01, CENTRO, SIMOES FILHO - BA, CEP 43700-000
 - Telefone: (71) 3333-4444
 - WhatsApp: (71) 99999-8888
-- Email: contato@lokvan.net.br
+- Email: lokvantur@gmail.com
 
 ## 📄 Licença
 

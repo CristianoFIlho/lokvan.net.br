@@ -9,7 +9,7 @@ import {
   Divider,
   Icon,
 } from '@chakra-ui/react'
-import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaWhatsapp, FaInstagram } from 'react-icons/fa'
+import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaWhatsapp } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -24,15 +24,15 @@ const Footer = () => {
             <VStack align="start" spacing={2}>
               <HStack>
                 <Icon as={FaPhone} />
-                <Text>(71) 3333-4444</Text>
+                <Text>+55 71 99655-9262</Text>
               </HStack>
               <HStack>
                 <Icon as={FaWhatsapp} />
-                <Text>(71) 99999-8888</Text>
+                <Text>+55 71 99655-9262</Text>
               </HStack>
               <HStack>
                 <Icon as={FaEnvelope} />
-                <Text>contato@lokvan.net.br</Text>
+                <Text>lokvantur@gmail.com</Text>
               </HStack>
             </VStack>
           </VStack>
@@ -45,9 +45,9 @@ const Footer = () => {
             <HStack align="start">
               <Icon as={FaMapMarkerAlt} mt={1} />
               <Text>
-                RUA SAO MARCOS, 41, SALA 01<br />
-                CENTRO, SIMOES FILHO - BA<br />
-                CEP 43700-000
+                Loteamento - Granjas Rurais Pres. Vargas<br />
+                Salvador - BA<br />
+                CEP 41230-000
               </Text>
             </HStack>
           </VStack>
@@ -58,10 +58,10 @@ const Footer = () => {
               Serviços
             </Text>
             <VStack align="start" spacing={1}>
-              <Text>Fretamento</Text>
-              <Text>Viagens e Turismo</Text>
-              <Text>Eventos Corporativos</Text>
-              <Text>Transfer Executivo</Text>
+              <Text>Transporte Escolar</Text>
+              <Text>Colégio Militar de Salvador</Text>
+              <Text>Eventos Escolares</Text>
+              <Text>Transporte Personalizado</Text>
             </VStack>
           </VStack>
         </SimpleGrid>
@@ -73,11 +73,8 @@ const Footer = () => {
             © 2024 LOKVAN LOCACAO E TRANSPORTES LTDA - CNPJ: 04.157.527/0001-85
           </Text>
           <HStack justify={{ base: 'start', md: 'end' }} spacing={4}>
-            <Link href="https://wa.me/5571999998888" isExternal>
+            <Link href="https://wa.me/557196559262" isExternal>
               <Icon as={FaWhatsapp} boxSize={6} _hover={{ color: 'green.300' }} />
-            </Link>
-            <Link href="#" isExternal>
-              <Icon as={FaInstagram} boxSize={6} _hover={{ color: 'pink.300' }} />
             </Link>
           </HStack>
         </SimpleGrid>

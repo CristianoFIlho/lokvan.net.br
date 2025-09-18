@@ -31,18 +31,17 @@ const schema = yup.object({
   name: yup.string().required('Nome é obrigatório'),
   email: yup.string().email('Email inválido').required('Email é obrigatório'),
   phone: yup.string().required('Telefone é obrigatório'),
-  company: yup.string(),
+  company: yup.string().optional(),
   service: yup.string().required('Selecione um serviço'),
   passengers: yup.number().positive('Número deve ser positivo').required('Número de passageiros é obrigatório'),
   date: yup.string().required('Data é obrigatória'),
-  time: yup.string(),
+  time: yup.string().optional(),
   origin: yup.string().required('Local de origem é obrigatório'),
   destination: yup.string().required('Local de destino é obrigatório'),
-  duration: yup.string(),
-  message: yup.string(),
+  duration: yup.string().optional(),
+  message: yup.string().optional(),
 }).required()
 
-type FormData = yup.InferType<typeof schema>
 
 const services = [
   { value: 'fretamento', label: 'Fretamento' },
@@ -68,11 +67,11 @@ const Quote = () => {
     handleSubmit,
     formState: { errors, isSubmitting },
     reset
-  } = useForm<FormData>({
+  } = useForm({
     resolver: yupResolver(schema)
   })
 
-  const onSubmit = async (data: FormData) => {
+  const onSubmit = async (data: any) => {
     try {
       // Simulate API call
       await new Promise(resolve => setTimeout(resolve, 2000))
@@ -144,7 +143,7 @@ const Quote = () => {
                   <Icon as={FaPhone} color="lokvan.primary" boxSize={5} />
                   <VStack align="start" spacing={0}>
                     <Text fontWeight="bold">Telefone</Text>
-                    <Text color="gray.600">(71) 3333-4444</Text>
+                    <Text color="gray.600">+55 71 999655-9262</Text>
                   </VStack>
                 </HStack>
 
@@ -152,7 +151,7 @@ const Quote = () => {
                   <Icon as={FaWhatsapp} color="green.500" boxSize={5} />
                   <VStack align="start" spacing={0}>
                     <Text fontWeight="bold">WhatsApp</Text>
-                    <Text color="gray.600">(71) 99999-8888</Text>
+                    <Text color="gray.600">+55 71 999655-9262</Text>
                   </VStack>
                 </HStack>
 
@@ -160,7 +159,7 @@ const Quote = () => {
                   <Icon as={FaEnvelope} color="lokvan.primary" boxSize={5} />
                   <VStack align="start" spacing={0}>
                     <Text fontWeight="bold">Email</Text>
-                    <Text color="gray.600">contato@lokvan.net.br</Text>
+                    <Text color="gray.600">lokvantur@gmail.com</Text>
                   </VStack>
                 </HStack>
 
@@ -169,9 +168,9 @@ const Quote = () => {
                   <VStack align="start" spacing={0}>
                     <Text fontWeight="bold">Endereço</Text>
                     <Text color="gray.600">
-                      RUA SAO MARCOS, 41, SALA 01<br />
-                      CENTRO, SIMOES FILHO - BA<br />
-                      CEP 43700-000
+                      Loteamento - Granjas Rurais Pres. Vargas<br />
+                      Salvador - BA<br />
+                      CEP 41230-000
                     </Text>
                   </VStack>
                 </HStack>

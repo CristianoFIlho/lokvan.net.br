@@ -10,9 +10,6 @@ import {
   Icon,
   Image,
   Button,
-  List,
-  ListItem,
-  ListIcon,
   Badge,
   HStack,
 } from '@chakra-ui/react'
@@ -34,72 +31,72 @@ const MotionCard = motion.create(Card)
 
 const services = [
   {
-    id: 'fretamento',
+    id: 'transporte-escolar',
     icon: FaBus,
-    title: 'Fretamento',
-    description: 'Transporte coletivo para empresas, escolas e grupos',
-    image: 'https://via.placeholder.com/400x250/1E3A8A/FFFFFF?text=Fretamento',
+    title: 'Transporte Escolar',
+    description: 'Serviço especializado para estudantes com total segurança',
+    image: 'https://via.placeholder.com/400x250/1E3A8A/FFFFFF?text=Transporte+Escolar',
     features: [
-      'Ônibus com ar condicionado',
-      'Motoristas habilitados',
-      'Seguro total para passageiros',
+      'Veículos adequados para transporte escolar',
+      'Motoristas habilitados e experientes',
+      'Seguro total para estudantes',
       'Manutenção preventiva rigorosa',
-      'Contratos flexíveis',
-      'Atendimento 24/7'
+      'Horários escolares respeitados',
+      'Atendimento especializado'
     ],
-    capacity: '20 a 50 passageiros',
-    ideal: 'Empresas, escolas, grupos'
+    capacity: '15 a 20 estudantes',
+    ideal: 'Escolas, colégios, instituições de ensino'
   },
   {
-    id: 'turismo',
+    id: 'colegio-militar',
     icon: FaRoute,
-    title: 'Viagens e Turismo',
-    description: 'Excursões e passeios para destinos incríveis',
-    image: 'https://via.placeholder.com/400x250/3B82F6/FFFFFF?text=Turismo',
+    title: 'Colégio Militar de Salvador',
+    description: 'Transporte dedicado para o Colégio Militar de Salvador',
+    image: 'https://via.placeholder.com/400x250/3B82F6/FFFFFF?text=Colegio+Militar',
     features: [
-      'Roteiros personalizados',
-      'Guia turístico especializado',
-      'Veículos confortáveis',
-      'Paradas estratégicas',
-      'Seguro viagem incluído',
-      'Suporte durante toda a viagem'
-    ],
-    capacity: '15 a 45 passageiros',
-    ideal: 'Agências, grupos de turismo'
-  },
-  {
-    id: 'eventos',
-    icon: FaCalendarAlt,
-    title: 'Eventos Corporativos',
-    description: 'Transporte especializado para eventos empresariais',
-    image: 'https://via.placeholder.com/400x250/F59E0B/FFFFFF?text=Eventos',
-    features: [
-      'Logística personalizada',
-      'Coordenação de embarque',
-      'Veículos executivos',
-      'Pontualidade garantida',
-      'Suporte ao evento',
-      'Relatórios de acompanhamento'
-    ],
-    capacity: '10 a 40 passageiros',
-    ideal: 'Eventos corporativos, convenções'
-  },
-  {
-    id: 'transfer',
-    icon: FaUserTie,
-    title: 'Transfer Executivo',
-    description: 'Serviço premium para executivos e VIPs',
-    image: 'https://via.placeholder.com/400x250/7C3AED/FFFFFF?text=Transfer',
-    features: [
-      'Veículos de luxo',
-      'Motoristas uniformizados',
-      'Atendimento personalizado',
+      'Serviço exclusivo e dedicado',
+      'Motoristas treinados para transporte escolar',
+      'Veículos adaptados para estudantes',
       'Pontualidade absoluta',
-      'Wi-Fi e comodidades',
-      'Discrição e profissionalismo'
+      'Segurança máxima',
+      'Relacionamento de longa data'
     ],
-    capacity: '1 a 8 passageiros',
-    ideal: 'Executivos, aeroportos, hotéis'
+    capacity: '15 a 20 estudantes por veículo',
+    ideal: 'Colégio Militar de Salvador'
+  },
+  {
+    id: 'eventos-escolares',
+    icon: FaCalendarAlt,
+    title: 'Eventos Escolares',
+    description: 'Transporte para passeios e atividades escolares',
+    image: 'https://via.placeholder.com/400x250/F59E0B/FFFFFF?text=Eventos+Escolares',
+    features: [
+      'Transporte para passeios escolares',
+      'Atividades extracurriculares',
+      'Excursões educativas',
+      'Pontualidade garantida',
+      'Suporte durante toda a atividade',
+      'Segurança total para estudantes'
+    ],
+    capacity: '15 a 20 estudantes',
+    ideal: 'Passeios escolares, atividades extracurriculares'
+  },
+  {
+    id: 'transporte-personalizado',
+    icon: FaUserTie,
+    title: 'Transporte Personalizado',
+    description: 'Serviços sob medida para instituições de ensino',
+    image: 'https://via.placeholder.com/400x250/7C3AED/FFFFFF?text=Personalizado',
+    features: [
+      'Serviços sob medida',
+      'Rotas personalizadas',
+      'Horários flexíveis',
+      'Atendimento especializado',
+      'Preços justos',
+      'Compromisso com a educação'
+    ],
+    capacity: 'Conforme necessidade',
+    ideal: 'Instituições de ensino, escolas particulares'
   }
 ]
 
@@ -121,8 +118,8 @@ const Services = () => {
               Nossos Serviços
             </Heading>
             <Text fontSize="xl" maxW="3xl">
-              Oferecemos soluções completas em transporte, adaptadas às necessidades 
-              específicas de cada cliente, sempre com foco na segurança e qualidade.
+              Especializados em transporte escolar seguro e confiável, 
+              atendendo principalmente o Colégio Militar de Salvador e outras instituições de ensino.
             </Text>
           </VStack>
         </Container>
