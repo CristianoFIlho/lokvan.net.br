@@ -9,7 +9,7 @@ import {
   Divider,
   Icon,
 } from '@chakra-ui/react'
-import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaWhatsapp, FaInstagram } from 'react-icons/fa'
+import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaWhatsapp } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -75,9 +75,6 @@ const Footer = () => {
           <HStack justify={{ base: 'start', md: 'end' }} spacing={4}>
             <Link href="https://wa.me/557196559262" isExternal>
               <Icon as={FaWhatsapp} boxSize={6} _hover={{ color: 'green.300' }} />
-            </Link>
-            <Link href="#" isExternal>
-              <Icon as={FaInstagram} boxSize={6} _hover={{ color: 'pink.300' }} />
             </Link>
           </HStack>
         </SimpleGrid>
